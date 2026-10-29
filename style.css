@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+    background-color: white;
+    color: #252525;
+}
+
+.features{
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 15px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 45px;
+    row-gap: 65px;
+}
+
+.feature{
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+}
